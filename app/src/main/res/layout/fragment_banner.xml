@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:layout_height="@dimen/banner_height"
+             tools:context=".ui.home.banner.BannerFragment">
+
+   <ImageView
+           android:id="@+id/img_banner"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:adjustViewBounds="true"
+           android:focusableInTouchMode="true"
+           android:scaleType="centerCrop"
+   />
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:src="@drawable/bg_overlay"
+            android:layout_height="match_parent"/>
+
+   <TextView
+           android:id="@+id/tv_image_slider"
+           android:layout_width="match_parent"
+           android:text="JUDUL FILM"
+           android:textColor="@android:color/white"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_gravity="bottom"
+           android:layout_marginBottom="5dp"
+           android:textSize="16sp" />
+
+</FrameLayout>

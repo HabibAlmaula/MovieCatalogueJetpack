@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_height">180dp</dimen>
+    <dimen name="_2sdp">0.5dp</dimen>
+    <dimen name="yn2">10dp</dimen>
+    <dimen name="titleGroup">20dp</dimen>
+</resources>
